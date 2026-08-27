@@ -118,3 +118,39 @@ footer {
   font-size: 1.1rem;
   color: #CCCCCC;
 }
+/* Área do Botão de Emergência */
+.area-acao {
+  background-color: #f8f9fa;
+  border: 2px solid #d9534f;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* Botão de Auxílio */
+.btn-auxilio {
+  display: inline-block;
+  background-color: #d9534f; /* Cor chamativa (vermelho) */
+  color: #ffffff;             /* Alto contraste */
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+/* Efeito ao passar o mouse ou focar via teclado */
+.btn-auxilio:hover,
+.btn-auxilio:focus {
+  background-color: #c9302c;
+  outline: 3px solid #000;    /* Destaque visual para navegação por teclado */
+}
+
+/* Efeito de clique */
+.btn-auxilio:active {
+  transform: scale(0.98);
+}

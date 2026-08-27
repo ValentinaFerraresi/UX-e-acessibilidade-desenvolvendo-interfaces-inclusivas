@@ -59,3 +59,18 @@
 
 </body>
 </html>
+<script>
+    const btnAuxilio = document.querySelector('.btn-auxilio');
+
+    btnAuxilio.addEventListener('click', function() {
+      // Mensagem visível na tela
+      alert('Pedido de auxílio solicitado! Aguarde apoio no local.');
+      
+      // Feedback auditivo para leitores de tela e acessibilidade
+      const aviso = document.createElement('div');
+      aviso.setAttribute('role', 'alert');
+      aviso.textContent = 'Pedido de auxílio enviado com sucesso.';
+      document.body.appendChild(aviso);
+    });
+  </script>
+</body>
