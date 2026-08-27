@@ -150,6 +150,7 @@ footer {
   outline: 3px solid #000;    /* Destaque visual para navegação por teclado */
 }
 
+
 /* Efeito de clique */
 .btn-auxilio:active {
   transform: scale(0.98);
