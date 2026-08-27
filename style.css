@@ -152,9 +152,9 @@ footer {
 
 
 /* Efeito de clique */
-.btn-auxilio:active {
+  .btn-auxilio:active {
   transform: scale(0.98);
-
+  }
   /* Barra do Menu de Acessibilidade */
 .menu-acessibilidade {
   display: flex;
